@@ -4,15 +4,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
-
+<div class='fill-screen'>
+    <img class='make-it-fit' src='invisionshot.png'>
+</div>
 <style>	
-body {
-    background-image: url("invisionshot.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+div.fill-screen {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+img.make-it-fit {
+    max-width: 99%;
+    max-height: 99%;
 }
 </style>
 
+<!--
+<style>	
+	body {
+	    background-image: url("invisionshot.png");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+</style>
+-->
 	<!-- BEGIN Salesforce Snap-in Code Snippet -->
 	<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #A7C4D2; font-family: "Salesforce Sans", sans-serif; }
