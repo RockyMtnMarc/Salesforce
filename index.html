@@ -5,16 +5,41 @@
 </head>
 <body>
 
+<div id="bg">
+  <img src="invisionshot.png" alt="">
+</div>
+
+<style type="text/css">
+	#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+</style>
+<!--
 <style>	
 	html 
-		{
-		    background-image: url("invisionshot.png");
-		    background-repeat: no-repeat;
-		    background-size: cover;
-		    background-attachment: fixed;
-		}
+	{
+	    background-image: url("invisionshot.png");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment: fixed;
+	}
 </style>
-
+-->
 	<!-- BEGIN Salesforce Snap-in Code Snippet -->
 	<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #A7C4D2; font-family: "Salesforce Sans", sans-serif; }
