@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<style>
+	.bg {
+	    
+	    width: 100%;
+	    height: auto; 
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+</style>
+</head>
+<body>
+
+<img src="https://marriott.invisionapp.com/static-signed/live-embed/8158552/300529484/7/latest/g5XZS2TypAuvwy3ntRPWJ54oxq4fGkubSEdmMilE63lE2ctYHCfCJc0UyQVctlEeB3SklEKuUlLnOlOzylEfMRgB3IwlE/Sheraton_Requests-1x.png" class="bg"/>
+
+	<!-- BEGIN Salesforce Snap-in Code Snippet -->
+	<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton { background-color: #A7C4D2; font-family: "Salesforce Sans", sans-serif; }
+	.embeddedServiceHelpButton .helpButton .uiButton:focus { outline: 1px solid #A7C4D2; }
+	@font-face {
+	font-family: 'Salesforce Sans';
+	src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
+	url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
+	}
+</style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+var initESW = function(gslbBaseURL) {
+embedded_svc.settings.displayHelpButton = true; //Or false
+embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+
+embedded_svc.settings.defaultMinimizedText = 'Chat with us';
+
+embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+embedded_svc.settings.entryFeature = 'LiveAgent';
+embedded_svc.settings.extraPrechatFormDetails = [{"label":"First Name", "name":"FirstName", "value":"Liu", "displayToAgent":true}];
+
+embedded_svc.init('https://bot-demo123-dev-ed.my.salesforce.com', 'https://bot-demo123-dev-ed-com-developer-edition.gus.force.com/hotel', gslbBaseURL, '00DB0000000DvDl', 'Community_Manager', { baseLiveAgentContentURL: 'https://c.gla3-phx.gus.salesforce.com/content', deploymentId: '572B00000000yoJ', buttonId: '573B00000005Nrh', baseLiveAgentURL: 'https://d.gla3-phx.gus.salesforce.com/chat', eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IB00000004EUTMA2_163ad5f40eb', isOfflineSupportEnabled: true}); };if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://bot-demo123-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s); } else { initESW('https://service.force.com'); }
+</script>
+	<!-- END Salesforce Snap-in Code Snippet -->
+	
+	<footer>
+
+		<!-- BEGIN Salesforce Live Agent Deployment Code Snippet -->
+		<script type='text/javascript' src='https://c.gla3-phx.gus.salesforce.com/content/g/js/43.0/deployment.js'></script>
+		<script type='text/javascript'>
+			liveagent.init('https://d.gla3-phx.gus.salesforce.com/chat', '572B00000000yoJ', '00DB0000000DvDl');
+		<!-- END Salesforce Live Agent Deployment Code Snippet -->
+
+		</script>
+	</footer>
+
+</body>
+</html>
