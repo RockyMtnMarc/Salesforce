@@ -27,17 +27,12 @@
 	<style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
 		background-color: #005290;
-		font-family: "Salesforce Sans", sans-serif;
+		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #005290;
 	}
-	@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
-		url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
-	}
-</style>
+	</style>
 
 	<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 	<script type='text/javascript'>
@@ -65,16 +60,16 @@
 
 			embedded_svc.init(
 				'https://sonsofsunny-gs0-apr2019.my.salesforce.com',
-				'https://sdodemo-main-166ce2cf6b6-16a-16a54c47233.force.com/consumer',
+				'https://sdodemo-main-166ce2cf6b6-16a-16a54c47233.force.com/professional',
 				gslbBaseURL,
 				'00DB0000000EeHv',
-				'Snap_ins_Einstein_Bot',
+				'lwc_test',
 				{
 					baseLiveAgentContentURL: 'https://c.gla3-dfw.gus.salesforce.com/content',
 					deploymentId: '572B0000000D6o6',
-					buttonId: '573B0000000D8Mv',
+					buttonId: '573B0000000D9dv',
 					baseLiveAgentURL: 'https://d.gla3-dfw.gus.salesforce.com/chat',
-					eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I1N000000000VUAQ_161f777bdfa',
+					eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IB00000008TKXMA2_16a9908eb69',
 					isOfflineSupportEnabled: false
 				}
 			);
